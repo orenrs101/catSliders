@@ -1,0 +1,42 @@
+.containerUp {
+  border: 1px solid black;
+  width:270px;
+  height: 187px;
+  overflow-y: hidden;
+
+}
+
+img {
+  width: 270px;
+  animation: moveUp 1s infinite;
+}
+
+@keyframes moveUp {
+  to {
+    transform: translateY(-189px);
+  }
+}
+
+
+.container{
+  width: 270px;
+  overflow: hidden;
+
+}
+
+.containerSide {
+  border: 1px solid black;
+  width:544px;
+  height: 187px;
+}
+
+.containerSide img {
+  width: 270px;
+  animation: moveSide 1s infinite;
+}
+
+@keyframes moveSide {
+  to {
+    transform: translateX(-270px);
+  }
+}
